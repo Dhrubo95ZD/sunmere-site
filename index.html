@@ -1,11 +1,66 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Sunmere Online</title>
-<style>body{margin:0;font:16px/1.6 Georgia,serif;background:#1d2420;color:#e8e1cf}main{max-width:720px;margin:0 auto;padding:40px 18px}h1{color:#e0b860;letter-spacing:.04em}a{color:#9fd3c7}.card{background:#263029;border:1px solid #3c4a40;border-radius:6px;padding:18px;margin:20px 0}</style></head>
+<meta name="description" content="Sunmere Online: a free fantasy MMORPG of steam engines, quests and machine raids. Play in your browser.">
+<meta property="og:title" content="Sunmere Online">
+<meta property="og:description" content="A free, hand-built fantasy MMORPG of steam engines and machine raids. Play in your browser.">
+<meta property="og:image" content="https://dhrubo95zd.github.io/sunmere-site/shots/village.jpg">
+<style>
+:root{--bg:#1d2420;--card:#263029;--line:#3c4a40;--ink:#e8e1cf;--dim:#b9b2a0;--gold:#e0b860;--link:#9fd3c7}
+*{box-sizing:border-box}
+body{margin:0;font:17px/1.6 Georgia,serif;background:var(--bg);color:var(--ink)}
+main{max-width:1040px;margin:0 auto;padding:36px 16px 48px}
+h1{color:var(--gold);letter-spacing:.06em;font-size:46px;margin:0 0 4px}
+h2{color:var(--gold);font-size:22px;margin:34px 0 10px}
+.tag{color:var(--dim);font-size:19px;margin:0 0 22px}
+a{color:var(--link)}
+.play{display:inline-block;background:linear-gradient(180deg,#e9c46a,#b8862e);color:#1b140a;font:700 24px/1 Georgia,serif;text-decoration:none;padding:20px 36px;border-radius:8px;box-shadow:0 4px 0 #6e4e17,0 8px 22px rgba(0,0,0,.45);letter-spacing:.03em}
+.play:hover{filter:brightness(1.08)}
+.under{color:var(--dim);font-size:15px;margin:12px 0 0}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:26px;align-items:center}
+.hero img{width:100%;border-radius:8px;border:1px solid var(--line)}
+.shots{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.shots img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;border:1px solid var(--line);display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px 18px}
+.card b{color:var(--gold)}
+ul{margin:6px 0;padding-left:20px}
+footer{margin-top:40px;color:var(--dim);font-size:14px}
+@media (max-width:760px){h1{font-size:36px}.hero{grid-template-columns:1fr}.play{font-size:20px;padding:16px 26px}}
+</style></head>
 <body><main>
-<h1>Sunmere Online</h1>
-<p>A hand-built fantasy world of steam engines, quarries and wind-driven works. Quest across the valley and the islands, take on machine raids with friends, and keep the old Makers' works running.</p>
-<div class="card"><b>Play:</b> Windows desktop app and Android (private test builds for now).</div>
-<div class="card"><b>Sign-in:</b> You can play offline without an account. Signing in with Google is only used to keep your online characters tied to you. See the <a href="privacy.html">privacy policy</a>.</div>
-<p><small>Contact: through the developer's GitHub, Dhrubo95ZD.</small></p>
+<div class="hero">
+  <div>
+    <h1>Sunmere Online</h1>
+    <p class="tag">A hand-built fantasy world of steam engines, quarries and wind-driven works. Follow the Main Story across the valley and the islands, take on machine bosses and raids with other players, and keep the old Makers' works running.</p>
+    <a class="play" href="https://dhrubo95zd.github.io/sunmere-play/">Play in your browser</a>
+    <p class="under">Free. Sign in with Google to play together in the online world. No download needed.</p>
+  </div>
+  <img src="shots/village.jpg" alt="Sunmere village square with players and market stalls">
+</div>
+
+<h2>Screenshots</h2>
+<div class="shots">
+  <img src="shots/machine-fight.jpg" alt="Fighting a machine boss at the Tide Mills" loading="lazy">
+  <img src="shots/old-works.jpg" alt="The furnaces of the Old Works" loading="lazy">
+  <img src="shots/steamship.jpg" alt="A steamship crossing to the islands" loading="lazy">
+  <img src="shots/snow-camp.jpg" alt="A camp in the snowy north" loading="lazy">
+  <img src="shots/cottage.jpg" alt="A cottage you can walk into" loading="lazy">
+</div>
+
+<h2>What it is</h2>
+<div class="cards">
+  <div class="card"><b>Seven classes</b><br>Knight, Ranger, Chemist, Sandblade, Warden, Herbalist and Deadeye, each with its own weapon, skills and talents.</div>
+  <div class="card"><b>Quests and dungeons</b><br>A long Main Story, side quests, dungeons and raids against steam-driven machines, gear to collect and upgrade.</div>
+  <div class="card"><b>Play together</b><br>Parties, guilds, trading, duels, friends and chat. Characters marked <i>(bot)</i> are the game's own adventurers, so you always know who is a real player.</div>
+</div>
+
+<h2>Playing</h2>
+<div class="cards">
+  <div class="card"><b>Sign in with Google to play together</b><br>The online world needs a Google sign-in so your characters stay yours. The game only gets your Google display name, never shows your email. See the <a href="privacy.html">privacy policy</a>. You can also play offline in the browser without signing in.</div>
+  <div class="card"><b>Requirements</b><ul><li>Desktop Chrome or Edge (recent version), keyboard and mouse</li><li>A graphics card from the last few years</li><li>Android: there is also an app (APK) &mdash; <a href="https://github.com/Dhrubo95ZD/sunmere-play/releases/latest">download</a></li></ul></div>
+  <div class="card"><b>Early access, hosted from home</b><br>Sunmere Online is a solo hobby project in early access. The online world runs on the developer's own PC, so it may be offline at times (offline play still works). Expect some bugs: reports are welcome.</div>
+</div>
+
+<footer>Made by one developer. Contact and bug reports: GitHub, Dhrubo95ZD. &middot; <a href="privacy.html">Privacy policy</a></footer>
 </main></body></html>
