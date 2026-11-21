@@ -1,6 +1,6 @@
 {
   "version": "145",
-  "min": "145",
+  "min": "144",
   "android": "https://github.com/Dhrubo95ZD/sunmere-play/releases/latest/download/Sunmere-Android.apk",
   "windows": "https://github.com/Dhrubo95ZD/sunmere-play/releases/latest/download/Sunmere-Windows.zip",
   "notes": "Finding the World: Server not answering, fixed."
